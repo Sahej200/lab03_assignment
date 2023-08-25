@@ -1,4 +1,4 @@
-flight_table1 = [
+rakashflight_table1 = [
     {"P_ID": "P1", "Process": "VSCode", "Start Time (ms)": 100, "Priority": "MID"},
     {"P_ID": "P23", "Process": "Eclipse", "Start Time (ms)": 234, "Priority": "MID"},
     {"P_ID": "P93", "Process": "Chrome", "Start Time (ms)": 189, "Priority": "High"},
@@ -15,7 +15,7 @@ def print_flight_table1(table):
         print("{:<5} {:<10} {:<15} {:<8}".format(
             entry["P_ID"], entry["Process"], entry["Start Time (ms)"], entry["Priority"]))
 
-
+SAHEJ PRAKASH
 
 def sort_flight_table1(table, sort_option):
     if sort_option == 1:
